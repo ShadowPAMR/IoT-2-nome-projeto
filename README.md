@@ -15,8 +15,10 @@ O sistema permitirá a justificação da não comparecência do colaborador, evi
 ## Requisitos de Hardware
 - **Sensor NFC:** Responsável pela leitura das tags dos colaboradores.
 - **Tag RFID:** Identifica o colaborador associando-se diretamente ao seu nome/perfil.
-- **ESP-32:** (Inserir descrição do papel desse componente)
+- **ESP-32:** Suportar o sensor NFC e enviar a informação para o Rhasperry
+- **Rhasperry:** Tratar a informação no Node-red; Enviar e guardar a informação no Firebase; Node-red manter ligada a Dashboard (página web)
 
 ## Protocolos Utilizados
 - **MQTT**
 - **Web Sockets**
+- 
