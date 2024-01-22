@@ -31,7 +31,7 @@ O nosso projeto consiste na elaboração de um trabalho que permite gerir e moni
   - Estabelecemos a comunicação LoRa entre o ESP32 TTGO e o ESP32 no PC para transmitir dados de presença.
 
 - **Week 3:**
-  - Tentamos configurar o Firebase para guardar e controlar os dados da presença dos colaboradores. (Não conseguimos conectar com o Firebase)
+  - Configurámos o Firebase para guardar e controlar os dados da presença dos colaboradores.
 
 ## Deliverables
 - Relatório do projeto
