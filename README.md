@@ -10,12 +10,12 @@ Projeto final de IoT
 O objetivo deste projeto é configurar um sistema de gestão de presenças (entradas e saídas) com informações acessíveis através de uma página web. Os dados serão processados para indicar quando alguém faltou, está de férias, chegou atrasado ou saiu mais cedo do horário estabelecido.
 
 ## Tecnologias usadas
-- 1 ESP32 ligado ao computador
+- 2 ESP32 TTGO
 - 1 ESP32 TTGO 
 - RFID RC-522
 
 ## Storytelling
-- Em um edifício com aproximadamente 30 colaboradores, busca-se implementar um sistema de gestão de presenças, onde as informações serão disponibilizadas online. Cada colaborador receberá uma tag para registrar duas vezes ao dia, na entrada e na saída, por exemplo, às 9:00h e 18:00h. Com base nesses dados, será possível identificar atrasos, ausências e saídas antecipadas.
+- Num edifício com aproximadamente 30 colaboradores, busca-se implementar um sistema de gestão de presenças, onde as informações serão disponibilizadas online. Cada colaborador receberá uma tag para registrar duas vezes ao dia, à entrada e à saída, por exemplo, às 9:00h e 18:00h. Com base nesses dados, será possível identificar atrasos, ausências e saídas antecipadas.
 
 ## Exemplos de Funcionalidades
 1. **Atraso na Entrada:** Se alguém registrar a tag após o horário de entrada estipulado, por exemplo, às 9:20h em vez de 9:15h, o sistema emitirá um alerta indicando o atraso ao Coordenador.
@@ -32,8 +32,8 @@ O sistema permitirá a justificação da não comparecência do colaborador, evi
 - **Sensor NFC:** Responsável pela leitura das tags dos colaboradores.
 - **Tag RFID:** Identifica o colaborador associando-se diretamente ao seu nome/perfil.
 - **ESP-32:** Suportar o sensor NFC e enviar a informação para o Rhasperry
-- **Rhasperry:** Tratar a informação no Node-red; Enviar e guardar a informação no Firebase; Node-red manter ligada a Dashboard (página web)
+
 
 ## Protocolos Utilizados
-- **Web Sockets**
+- **LoRa**
 - **Firebase**
