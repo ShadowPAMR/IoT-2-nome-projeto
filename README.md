@@ -11,7 +11,6 @@ O objetivo deste projeto é configurar um sistema de gestão de presenças (entr
 
 ## Tecnologias usadas
 - 2 ESP32 TTGO
-- 1 ESP32 TTGO 
 - RFID RC-522
 
 ## Storytelling
