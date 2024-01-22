@@ -35,6 +35,5 @@ O sistema permitirá a justificação da não comparecência do colaborador, evi
 - **Rhasperry:** Tratar a informação no Node-red; Enviar e guardar a informação no Firebase; Node-red manter ligada a Dashboard (página web)
 
 ## Protocolos Utilizados
-- **MQTT**
 - **Web Sockets**
 - **Firebase**
