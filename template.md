@@ -1,41 +1,41 @@
 # Group Project Title
-HumTemp
+Gestão de presenças
 
 ## Team Members
-- [Ângelo Nogueira](link_to_profile_1)
-- [Rafael Paulo](link_to_profile_3)
-- [Rodrigo Cardoso](link_to_profile_4)
+- Joaquim Santos
+- David Couteiro
+- Pedro Almeida
 
 ## Project Overview
-Este projeto consiste na elaboração de um trabalho que permite monitorizar a temperatura e a humidade em vinhas na região do douro
+O nosso projeto consiste na elaboração de um trabalho que permite gerir e monitorizar as presenças (entrada e saída no estabelecimento)
 
 ## Project Tasks and Responsibilities
 - **Task 1:**
-  - Criação e ligação do sensor de temperatura e de humidade
+  - Criação e ligação do sensor RFID RC-522 para identificação única dos utilizadores
 
 - **Task 2:**
-  - criação do servidor mqtt e efetuar ligação do mesmo ao esp32
+  - Implementação da comunicação LoRa entre o ESP32 TTGO e o ESP32 que está ligado ao computador
 
 - **Task 3:**
-  - Criação do firebase para receção e controlo dos dados
+  - Desenvolvimento do código para o ESP32 TTGO, incluindo a leitura do sensor RFID, comunicação LoRa e envio de dados para o ESP32 no PC
 
+- **Task4:**
+  - Programação do ESP32 no PC para receber os dados do ESP32 TTGO, encaminhar para a Firebase e garantir a integridade dos dados
 ...
 
 ## Project Timeline
 - **Week 1:**
-  - Foi efetuada a criação da ligação do sensor de temperatura e humidade ao ESP32, onde fomos realizando os devidos teste para ver se o funcionamento deste se encontrava correto.
+  - Concluímos a integração do sensor RFID RC-522 com o ESP32 TTGO. Realizamos um teste para verificar a precisão da leitura (Só conseguimos ler o ID do cartão, mas não conseguimos ler o conteúdo do cartão.)
 
 - **Week 2:**
-  - Realização da ligação do ESP32 ao servidor MQTT online para que conseguissemos estabelecer uma conexão entre os dois ESP32, um para envio de dados e outro para receção e apresentação dos valores.
+  - Estabelecemos a comunicação LoRa entre o ESP32 TTGO e o ESP32 no PC para transmitir dados de presença.
 
 - **Week 3:**
-  - Realização da ligação ao firebase para envio dos dados e para o tratamento dos mesmos.
-
-## Resources
-- [Utilizamos este link para realizar o trabalho praticamente todo]([https://www.youtube.com/watch?v=C8lUobrqhDI&ab_channel=TFK])
+  - Tentamos configurar o Firebase para guardar e controlar os dados da presença dos colaboradores. (Não conseguimos conectar com o Firebase)
 
 ## Deliverables
 - Relatório do projeto
+- Código do projeto
 
 ## Review and Feedback
 - Regular team meetings for progress updates
@@ -43,7 +43,7 @@ Este projeto consiste na elaboração de um trabalho que permite monitorizar a t
 - Incorporating feedback for improvement
 
 ## Conclusion
-Conseguimos melhorar as nossas capacidades e po-las em pratica na realização deste trabalho, contudo, estamos 100% cientes que podemos melhorar, e será isso que iremos fazer no futuro.
+Através deste projeto, conseguimos aplicar e aprimorar as nossas habilidades. Reconhecemos que há espaço para melhorias e estamos comprometidos em evoluir nas próximas etapas.
 
 ## Additional Notes
 Any other information or notes relevant to the project.
